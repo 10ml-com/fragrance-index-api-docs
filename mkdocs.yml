@@ -1,0 +1,9 @@
+site_name: 10ML Fragrance Index API
+site_description: Free perfume API and fragrance API (REST and MCP) from 10ML, no API key.
+site_url: !ENV [READTHEDOCS_CANONICAL_URL, "https://10ml-fragrance-index-api.readthedocs.io/en/latest/"]
+theme:
+  name: readthedocs
+nav:
+  - Home: index.md
+  - REST API: rest-api.md
+  - MCP server: mcp-server.md
